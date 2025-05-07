@@ -1,0 +1,14 @@
+- cmd: function mkcd\nmkdir $argv -p\nand cd $argv\nend
+   when: 1497607074
+- cmd: function alg\n\nend
+   when: 1497607198
+- cmd: function mkcd\nmkdir $argv -p\n\nand cd $argv\nend
+   when: 1497851137
+   paths:
+    - and
+    - cd
+- cmd: function mkcd\nmkdir $argv\n\nand cd $argv\nend
+   when: 1497851149
+   paths:
+    - and
+    - cd
